@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=League+Gothic&family=League+Spartan&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=League+Gothic&family=League+Spartan&family=Montserrat+Alternates:wght@600&family=Open+Sans:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #08e0c4ef ;
+}
+nav h1 a{
+    color: #cc680b;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 200px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+header h1{
+    margin: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 50px;
+}
+header h4{
+    margin: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background: url('https://mycamer.net/wp-content/uploads/2021/10/programming-languages-shutterstock-1680857539-750x375.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+a{
+    color: rgba(0, 255, 255, 0.801);
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .languages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .languages a{
+    margin: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+}
+.main .content .languages p{
+    font-size: 20px;
+}
+.main .content .languages .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+}
+.main .content .languages.right{
+    flex: 0 0 70%;
+}
+.main .content .languages .right img{
+    height: 450px;
+    width: 800px;
+    margin-top: 5px;
+}
+.main .content .htmlcss{
+    margin: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.main .content .htmlcss .a h1{
+    color: darkorange;
+}
+.main .content .htmlcss .css h1{
+    color: blue;
+}
+.main .content .htmlcss .b h1{
+    color: rgb(255, 238, 0);
+}
+.main .content .htmlcss .c h1{
+    color: rgba(73, 143, 167, 0.801);
+}
+.main .content .htmlcss .d h1{
+    color: red;
+}
+.main .content .htmlcss .e h1{
+    color: rgb(105, 105, 105);
+}
+.main .content .htmlcss .f h1{
+    color: orange;
+}
+.main .content .htmlcss .g h1{
+    color: darkviolet;
+}
+.main .content .htmlcss .g h2{
+    color: darkviolet;
+}
+.main .content .htmlcss .h h1{
+    color: rgb(55, 187, 231);
+}
+.main .content .htmlcss .h h2{
+    color: rgb(55, 187, 231)
+}
+.main .content .htmlcss .i h1{
+    color: darkblue;
+}
+.main .content .htmlcss .j h1{
+    color: rgb(240, 82, 82);
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    nav .onglets a{
+        padding-bottom: 0px;
+        margin: 10px;
+    }
+    nav h1{
+        margin: 10px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .main .languages{
+        margin: 10px;
+    }
+    .main .content .languages .right img{
+        height: 250px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main .content .languages{
+        display: block;
+    }
+    .main .content .htmlcss{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .main .content .htmlcss img{
+        height: 250px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main .content .htmlcss iframe{
+        height: 300px;
+        width: 100%;
+        margin-top: 0px;
+    }
+}
