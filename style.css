@@ -131,6 +131,12 @@ a{
 .main .content .htmlcss .j h1{
     color: rgb(240, 82, 82);
 }
+.top a{
+    color: #cc680b;
+    font-size: 25px;
+    margin: 440px;
+}
+
 @media screen and (max-width:680px){
     html{
     scroll-behavior: smooth;
@@ -174,5 +180,10 @@ a{
         height: 300px;
         width: 100%;
         margin-top: 0px;
+    }
+    .top a{
+        color: #cc680b;
+        font-size: 25px;
+        margin: 0;
     }
 }
